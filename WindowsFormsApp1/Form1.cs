@@ -24,118 +24,31 @@ namespace WindowsFormsApp1
 
             if (kab < 200)
             {
-                if (korp == 1)
-                {
                     Form form2 = new Form2();
                     form2.ShowDialog();
-
-                }
-
-                if (korp == 2)
-                {
-
-                }
-
-                if (korp == 3)
-                {
-
-                }
-
-                if (korp == 4)
-                {
-
-                }
             }
 
             else if (kab < 300)
             {
-                if (korp == 1)
-                {
-
-                }
-
-                if (korp == 2)
-                {
-
-                }
-
-                if (korp == 3)
-                {
-
-                }
-
-                if (korp == 4)
-                {
-
-                }
+                    Form form2 = new Form2();
+                    form2.ShowDialog();
             }
             else if (kab < 400)
             {
-                if (korp == 1)
-                {
-
-                }
-
-                if (korp == 2)
-                {
-
-                }
-
-                if (korp == 3)
-                {
-
-                }
-
-                if (korp == 4)
-                {
-
-                }
+                    Form form2 = new Form2();
+                    form2.ShowDialog();
             }
 
             else if (kab < 500)
             {
-                if (korp == 1)
-                {
-
-                }
-
-                if (korp == 2)
-                {
-
-                }
-
-                if (korp == 3)
-                {
-
-                }
-
-                if (korp == 4)
-                {
-
-                }
+                    Form form2 = new Form2();
+                    form2.ShowDialog();
             }
 
             else if (kab < 600)
             {
-                if (korp == 1)
-                {
-
-                }
-
-                if (korp == 2)
-                {
-
-                }
-
-                if (korp == 3)
-                {
-
-                }
-
-                if (korp == 4)
-                {
-
-                }
+                    Form form2 = new Form2();
+                    form2.ShowDialog();
             }
 
         }
