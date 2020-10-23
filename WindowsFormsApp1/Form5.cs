@@ -41,5 +41,10 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void Label426_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -34,12 +34,14 @@
             // label426
             // 
             this.label426.AutoSize = true;
-            this.label426.Location = new System.Drawing.Point(566, 297);
+            this.label426.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.label426.Location = new System.Drawing.Point(573, 297);
             this.label426.Name = "label426";
-            this.label426.Size = new System.Drawing.Size(25, 13);
+            this.label426.Size = new System.Drawing.Size(10, 13);
             this.label426.TabIndex = 2;
-            this.label426.Text = "426";
+            this.label426.Text = "!";
             this.label426.Visible = false;
+            this.label426.Click += new System.EventHandler(this.Label426_Click);
             // 
             // Form5
             // 
@@ -49,6 +51,7 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(1472, 677);
             this.Controls.Add(this.label426);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Form5";
             this.Text = "Form5";
             this.Load += new System.EventHandler(this.Form5_Load);
