@@ -9,3 +9,7 @@ C:\Users\14let\Source\Repos\Codding\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.
 C:\Users\14let\Source\Repos\Codding\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 C:\Users\14let\Source\Repos\Codding\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\14let\Source\Repos\Codding\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\14let\Source\Repos\Codding\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form3.resources
+C:\Users\14let\Source\Repos\Codding\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form4.resources
+C:\Users\14let\Source\Repos\Codding\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form5.resources
+C:\Users\14let\Source\Repos\Codding\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form6.resources

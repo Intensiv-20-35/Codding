@@ -19,7 +19,7 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int kab = int.Parse(textBox2.Text);
+            int kab = int.Parse(textBox1.Text);
             int korp = int.Parse(textBox2.Text);
 
             if (kab < 200)
@@ -30,26 +30,32 @@ namespace WindowsFormsApp1
 
             else if (kab < 300)
             {
-                    Form form2 = new Form2();
-                    form2.ShowDialog();
+                    Form form3 = new Form3();
+                    form3.ShowDialog();
             }
             else if (kab < 400)
             {
-                    Form form2 = new Form2();
-                    form2.ShowDialog();
+                    Form form4 = new Form4(kab, korp);
+                    form4.ShowDialog();
+                    
             }
 
             else if (kab < 500)
             {
-                    Form form2 = new Form2();
-                    form2.ShowDialog();
+                    Form form5 = new Form5(kab, korp);
+                    form5.ShowDialog();
             }
 
             else if (kab < 600)
             {
-                    Form form2 = new Form2();
-                    form2.ShowDialog();
+                    Form form6 = new Form6();
+                    form6.ShowDialog();
             }
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
 
         }
     }
