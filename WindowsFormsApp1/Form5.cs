@@ -39,12 +39,18 @@ namespace WindowsFormsApp1
 
         private void Form5_Load(object sender, EventArgs e)
         {
-
+             
         }
 
-        private void Label426_Click(object sender, EventArgs e)
+        private void buttonZoomIn_Click(object sender, EventArgs e)
         {
-
+            panel1.Scale(new SizeF(1.1f, 1.1f));
         }
+
+        private void buttonZoomOut_Click(object sender, EventArgs e)
+        {
+            panel1.Scale(new SizeF(0.9f, 0.9f));
+        }
+
     }
 }
