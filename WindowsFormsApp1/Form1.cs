@@ -48,7 +48,7 @@ namespace WindowsFormsApp1
 
             else if (kab < 600)
             {
-                    Form form6 = new Form6();
+                    Form form6 = new Form6(kab, korp);
                     form6.ShowDialog();
             }
 

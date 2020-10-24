@@ -47,7 +47,7 @@
             this.label426.AutoSize = true;
             this.label426.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.label426.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label426.Location = new System.Drawing.Point(250, 285);
+            this.label426.Location = new System.Drawing.Point(257, 305);
             this.label426.Name = "label426";
             this.label426.Size = new System.Drawing.Size(12, 15);
             this.label426.TabIndex = 2;
@@ -64,7 +64,7 @@
             this.panel1.Controls.Add(this.label426);
             this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(816, 651);
+            this.panel1.Size = new System.Drawing.Size(850, 693);
             this.panel1.TabIndex = 3;
             // 
             // buttonZoomIn
@@ -95,7 +95,7 @@
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.buttonZoomIn);
             this.panel2.Controls.Add(this.buttonZoomOut);
-            this.panel2.Location = new System.Drawing.Point(846, 593);
+            this.panel2.Location = new System.Drawing.Point(884, 635);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(81, 72);
             this.panel2.TabIndex = 6;
@@ -119,7 +119,7 @@
             this.panel3.Controls.Add(this.panel1);
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(840, 665);
+            this.panel3.Size = new System.Drawing.Size(878, 707);
             this.panel3.TabIndex = 3;
             // 
             // label427
@@ -127,7 +127,7 @@
             this.label427.AutoSize = true;
             this.label427.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.label427.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label427.Location = new System.Drawing.Point(232, 300);
+            this.label427.Location = new System.Drawing.Point(237, 322);
             this.label427.Name = "label427";
             this.label427.Size = new System.Drawing.Size(12, 15);
             this.label427.TabIndex = 3;
@@ -139,7 +139,7 @@
             this.label445.AutoSize = true;
             this.label445.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.label445.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label445.Location = new System.Drawing.Point(213, 384);
+            this.label445.Location = new System.Drawing.Point(219, 409);
             this.label445.Name = "label445";
             this.label445.Size = new System.Drawing.Size(12, 15);
             this.label445.TabIndex = 4;
@@ -152,7 +152,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(939, 677);
+            this.ClientSize = new System.Drawing.Size(977, 719);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Name = "Form5";
