@@ -34,17 +34,20 @@
             this.buttonZoomOut = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // label426
             // 
             this.label426.AutoSize = true;
-            this.label426.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.label426.Location = new System.Drawing.Point(256, 293);
+            this.label426.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label426.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label426.Location = new System.Drawing.Point(250, 285);
             this.label426.Name = "label426";
-            this.label426.Size = new System.Drawing.Size(10, 13);
+            this.label426.Size = new System.Drawing.Size(12, 15);
             this.label426.TabIndex = 2;
             this.label426.Text = "!";
             this.label426.Visible = false;
@@ -55,9 +58,9 @@
             this.panel1.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.Этаж_4_5;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.panel1.Controls.Add(this.label426);
-            this.panel1.Location = new System.Drawing.Point(3, 2);
+            this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(837, 671);
+            this.panel1.Size = new System.Drawing.Size(816, 651);
             this.panel1.TabIndex = 3;
             // 
             // buttonZoomIn
@@ -84,6 +87,7 @@
             // 
             // panel2
             // 
+            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.buttonZoomIn);
             this.panel2.Controls.Add(this.buttonZoomOut);
@@ -102,6 +106,18 @@
             this.label1.TabIndex = 6;
             this.label1.Text = "Зум";
             // 
+            // panel3
+            // 
+            this.panel3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel3.AutoScroll = true;
+            this.panel3.Controls.Add(this.panel1);
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(840, 665);
+            this.panel3.TabIndex = 3;
+            // 
             // Form5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -109,8 +125,8 @@
             this.AutoScroll = true;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(939, 677);
+            this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
             this.Name = "Form5";
             this.Text = "Form5";
             this.Load += new System.EventHandler(this.Form5_Load);
@@ -118,8 +134,9 @@
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -130,5 +147,6 @@
         private System.Windows.Forms.Button buttonZoomOut;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panel3;
     }
 }
