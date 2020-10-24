@@ -24,9 +24,14 @@ namespace WindowsFormsApp1
                 case 3:
                     switch (kab)
                     {
-                        case 426: label426.Visible = true;
+                        case 426: 
+                            label426.Visible = true;
                             break;
                         case 427:
+                            label427.Visible = true;
+                            break;
+                        case 445:
+                            label445.Visible = true;
                             break;
                     }
                     break;
