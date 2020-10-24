@@ -111,7 +111,7 @@
             this.label505.AutoSize = true;
             this.label505.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.label505.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label505.Location = new System.Drawing.Point(278, 454);
+            this.label505.Location = new System.Drawing.Point(354, 373);
             this.label505.Name = "label505";
             this.label505.Size = new System.Drawing.Size(12, 15);
             this.label505.TabIndex = 3;
