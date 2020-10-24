@@ -30,7 +30,7 @@ namespace WindowsFormsApp1
 
             else if (kab < 300)
             {
-                    Form form3 = new Form3();
+                    Form form3 = new Form3(kab, korp);
                     form3.ShowDialog();
             }
             else if (kab < 400)
