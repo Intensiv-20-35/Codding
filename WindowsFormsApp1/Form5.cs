@@ -24,9 +24,14 @@ namespace WindowsFormsApp1
                 case 3:
                     switch (kab)
                     {
-                        case 426: label426.Visible = true;
+                        case 426: 
+                            label426.Visible = true;
                             break;
                         case 427:
+                            label427.Visible = true;
+                            break;
+                        case 445:
+                            label445.Visible = true;
                             break;
                     }
                     break;
@@ -39,12 +44,18 @@ namespace WindowsFormsApp1
 
         private void Form5_Load(object sender, EventArgs e)
         {
-
+             
         }
 
-        private void Label426_Click(object sender, EventArgs e)
+        private void buttonZoomIn_Click(object sender, EventArgs e)
         {
-
+            panel1.Scale(new SizeF(1.1f, 1.1f));
         }
+
+        private void buttonZoomOut_Click(object sender, EventArgs e)
+        {
+            panel1.Scale(new SizeF(0.9f, 0.9f));
+        }
+
     }
 }
