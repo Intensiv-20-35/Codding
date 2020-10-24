@@ -30,13 +30,13 @@
         {
             this.label426 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label445 = new System.Windows.Forms.Label();
+            this.label427 = new System.Windows.Forms.Label();
             this.buttonZoomIn = new System.Windows.Forms.Button();
             this.buttonZoomOut = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label427 = new System.Windows.Forms.Label();
-            this.label445 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -66,6 +66,30 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(850, 693);
             this.panel1.TabIndex = 3;
+            // 
+            // label445
+            // 
+            this.label445.AutoSize = true;
+            this.label445.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label445.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label445.Location = new System.Drawing.Point(219, 409);
+            this.label445.Name = "label445";
+            this.label445.Size = new System.Drawing.Size(12, 15);
+            this.label445.TabIndex = 4;
+            this.label445.Text = "!";
+            this.label445.Visible = false;
+            // 
+            // label427
+            // 
+            this.label427.AutoSize = true;
+            this.label427.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label427.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label427.Location = new System.Drawing.Point(237, 322);
+            this.label427.Name = "label427";
+            this.label427.Size = new System.Drawing.Size(12, 15);
+            this.label427.TabIndex = 3;
+            this.label427.Text = "!";
+            this.label427.Visible = false;
             // 
             // buttonZoomIn
             // 
@@ -122,30 +146,6 @@
             this.panel3.Size = new System.Drawing.Size(878, 707);
             this.panel3.TabIndex = 3;
             // 
-            // label427
-            // 
-            this.label427.AutoSize = true;
-            this.label427.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label427.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label427.Location = new System.Drawing.Point(237, 322);
-            this.label427.Name = "label427";
-            this.label427.Size = new System.Drawing.Size(12, 15);
-            this.label427.TabIndex = 3;
-            this.label427.Text = "!";
-            this.label427.Visible = false;
-            // 
-            // label445
-            // 
-            this.label445.AutoSize = true;
-            this.label445.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label445.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label445.Location = new System.Drawing.Point(219, 409);
-            this.label445.Name = "label445";
-            this.label445.Size = new System.Drawing.Size(12, 15);
-            this.label445.TabIndex = 4;
-            this.label445.Text = "!";
-            this.label445.Visible = false;
-            // 
             // Form5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -156,7 +156,7 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Name = "Form5";
-            this.Text = "Form5";
+            this.Text = "4 этаж";
             this.Load += new System.EventHandler(this.Form5_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

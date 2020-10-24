@@ -46,7 +46,7 @@
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.buttonZoomIn);
             this.panel2.Controls.Add(this.buttonZoomOut);
-            this.panel2.Location = new System.Drawing.Point(925, 641);
+            this.panel2.Location = new System.Drawing.Point(917, 641);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(81, 72);
             this.panel2.TabIndex = 7;
@@ -92,7 +92,7 @@
             this.panel3.Controls.Add(this.panel1);
             this.panel3.Location = new System.Drawing.Point(1, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(918, 723);
+            this.panel3.Size = new System.Drawing.Size(910, 723);
             this.panel3.TabIndex = 8;
             // 
             // panel1
@@ -123,11 +123,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(1018, 725);
+            this.ClientSize = new System.Drawing.Size(1010, 725);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Name = "Form6";
-            this.Text = "Form6";
+            this.Text = "5 этаж";
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
