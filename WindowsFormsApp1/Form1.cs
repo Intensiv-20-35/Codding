@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace WindowsFormsApp1
@@ -19,36 +12,38 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int kab = int.Parse(textBox1.Text);
-            int korp = int.Parse(textBox2.Text);
+            string _kab1 = textBox1.Text.Substring(0, 3);
+            string _kab2 = textBox3.Text.Substring(0, 3);
 
-            if (kab < 200)
+            int kab1 = int.Parse(_kab1 + textBox2.Text);
+            int kab2 = int.Parse(_kab2 + textBox4.Text);
+            if (kab2 < 2000)
             {
                     Form form2 = new Form2();
                     form2.ShowDialog();
             }
 
-            else if (kab < 300)
+            else if (kab2 < 3000)
             {
-                    Form form3 = new Form3(kab, korp);
+                    Form form3 = new Form3(kab1, kab2);
                     form3.ShowDialog();
             }
-            else if (kab < 400)
+            else if (kab2 < 4000)
             {
-                    Form form4 = new Form4(kab, korp);
+                    Form form4 = new Form4(kab1, kab2);
                     form4.ShowDialog();
                     
             }
 
-            else if (kab < 500)
+            else if (kab2 < 5000)
             {
-                    Form form5 = new Form5(kab, korp);
+                    Form form5 = new Form5(kab1, kab2);
                     form5.ShowDialog();
             }
 
-            else if (kab < 600)
+            else if (kab2 < 6000)
             {
-                    Form form6 = new Form6(kab, korp);
+                    Form form6 = new Form6(kab1, kab2);
                     form6.ShowDialog();
             }
 
@@ -58,5 +53,6 @@ namespace WindowsFormsApp1
         {
 
         }
+
     }
 }

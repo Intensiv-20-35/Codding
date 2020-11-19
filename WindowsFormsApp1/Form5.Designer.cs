@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label426 = new System.Windows.Forms.Label();
+            this.label4263 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label445 = new System.Windows.Forms.Label();
-            this.label427 = new System.Windows.Forms.Label();
+            this.label4453 = new System.Windows.Forms.Label();
+            this.label4273 = new System.Windows.Forms.Label();
             this.buttonZoomIn = new System.Windows.Forms.Button();
             this.buttonZoomOut = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -42,54 +42,54 @@
             this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
-            // label426
+            // label4263
             // 
-            this.label426.AutoSize = true;
-            this.label426.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label426.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label426.Location = new System.Drawing.Point(257, 305);
-            this.label426.Name = "label426";
-            this.label426.Size = new System.Drawing.Size(12, 15);
-            this.label426.TabIndex = 2;
-            this.label426.Text = "!";
-            this.label426.Visible = false;
+            this.label4263.AutoSize = true;
+            this.label4263.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label4263.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label4263.Location = new System.Drawing.Point(257, 305);
+            this.label4263.Name = "label4263";
+            this.label4263.Size = new System.Drawing.Size(12, 15);
+            this.label4263.TabIndex = 2;
+            this.label4263.Text = "!";
+            this.label4263.Visible = false;
             // 
             // panel1
             // 
             this.panel1.AutoSize = true;
             this.panel1.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.Этаж_4_5;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel1.Controls.Add(this.label445);
-            this.panel1.Controls.Add(this.label427);
-            this.panel1.Controls.Add(this.label426);
+            this.panel1.Controls.Add(this.label4453);
+            this.panel1.Controls.Add(this.label4273);
+            this.panel1.Controls.Add(this.label4263);
             this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(850, 693);
             this.panel1.TabIndex = 3;
             // 
-            // label445
+            // label4453
             // 
-            this.label445.AutoSize = true;
-            this.label445.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label445.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label445.Location = new System.Drawing.Point(219, 409);
-            this.label445.Name = "label445";
-            this.label445.Size = new System.Drawing.Size(12, 15);
-            this.label445.TabIndex = 4;
-            this.label445.Text = "!";
-            this.label445.Visible = false;
+            this.label4453.AutoSize = true;
+            this.label4453.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label4453.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label4453.Location = new System.Drawing.Point(219, 409);
+            this.label4453.Name = "label4453";
+            this.label4453.Size = new System.Drawing.Size(12, 15);
+            this.label4453.TabIndex = 4;
+            this.label4453.Text = "!";
+            this.label4453.Visible = false;
             // 
-            // label427
+            // label4273
             // 
-            this.label427.AutoSize = true;
-            this.label427.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label427.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label427.Location = new System.Drawing.Point(237, 322);
-            this.label427.Name = "label427";
-            this.label427.Size = new System.Drawing.Size(12, 15);
-            this.label427.TabIndex = 3;
-            this.label427.Text = "!";
-            this.label427.Visible = false;
+            this.label4273.AutoSize = true;
+            this.label4273.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label4273.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label4273.Location = new System.Drawing.Point(237, 322);
+            this.label4273.Name = "label4273";
+            this.label4273.Size = new System.Drawing.Size(12, 15);
+            this.label4273.TabIndex = 3;
+            this.label4273.Text = "!";
+            this.label4273.Visible = false;
             // 
             // buttonZoomIn
             // 
@@ -169,14 +169,14 @@
         }
 
         #endregion
-        private System.Windows.Forms.Label label426;
+        private System.Windows.Forms.Label label4263;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button buttonZoomIn;
         private System.Windows.Forms.Button buttonZoomOut;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label label445;
-        private System.Windows.Forms.Label label427;
+        private System.Windows.Forms.Label label4453;
+        private System.Windows.Forms.Label label4273;
     }
 }
