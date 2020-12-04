@@ -12,7 +12,7 @@ namespace WindowsFormsApp1
 
             switch (kab2)
             {
-                case 4263: 
+                case 4263: // ставим метку на нужный нам кабинет
                 label4263.Visible = true;
                 break;
                 case 4273:
@@ -29,7 +29,7 @@ namespace WindowsFormsApp1
              
         }
 
-        private void buttonZoomIn_Click(object sender, EventArgs e)
+        private void buttonZoomIn_Click(object sender, EventArgs e) // изменяем масштаб 
         {
             panel1.Scale(new SizeF(1.1f, 1.1f));
         }
