@@ -3,7 +3,7 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class Form2 : Form
+    public partial class Form2 : Form // указываем кабинет у которого находимся
     {
         public Form2()
         {
