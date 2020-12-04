@@ -16,7 +16,7 @@ namespace WindowsFormsApp1
                 case 2:
                     switch (kab)
                     {
-                        case 505:
+                        case 505: // кабинеты 2 корпуса с маркером
                             label505.Visible = true;
                             break;
                     }
@@ -28,7 +28,7 @@ namespace WindowsFormsApp1
             }
         }
 
-        private void buttonZoomIn_Click(object sender, EventArgs e)
+        private void buttonZoomIn_Click(object sender, EventArgs e)//масштаб
         {
             panel1.Scale(new SizeF(1.1f, 1.1f));
         }
