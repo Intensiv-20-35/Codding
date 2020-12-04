@@ -8,7 +8,7 @@ namespace WindowsFormsApp1
     {
         public Form4(int kab, int korp)
         {
-            InitializeComponent();
+            InitializeComponent();// переключение карты корпуса
             switch (korp)
             {
                 case 1:
@@ -32,7 +32,7 @@ namespace WindowsFormsApp1
 
         }
 
-        private void buttonZoomIn_Click(object sender, EventArgs e)
+        private void buttonZoomIn_Click(object sender, EventArgs e) // масштаб карты
         {
             panel1.Scale(new SizeF(1.1f, 1.1f));
 
